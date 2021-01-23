@@ -17,3 +17,5 @@ starCountRef.on('value', (snapshot) => {
   const data = snapshot.val();
   updateStarCount(postElement, data);
 });
+const CHART = document.getElementById("lineChart");
+console.log
